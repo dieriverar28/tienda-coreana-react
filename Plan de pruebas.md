@@ -11,10 +11,5 @@
 
 | ID | Componente<br>*(describe)* | Caso de Prueba<br>*(it / test)* | Preparación<br>*(Arrange: props, mocks)* | Acción<br>*(Act: fireEvent, render)* | Resultado Esperado<br>*(Assert: expect)* | Estado<br>*(Pasa / Falla)* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| PU-001 | TarjetaProducto | Debe cambiar el texto del boton a "Guardado en favoritos" cuando el usuario haga clic. | Crear un objto "productMack" con el nombre "Labial" | Renderizar el componente y simular clic en el boton | El boton debe contener el texto guardado en favorito | :--- |
-
-
-
-
-
+| PU-001 | TarjetaProducto | debe cambiar texto de boton "guardado en favoritos" cuando usuario haga click. | Crear objeto "productoMock" con el nombre generico del producto | Renderizar o cargar el componente y simular un click en el boton. | boton debe contener texto guardado en favoritos | :--- |
 
