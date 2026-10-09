@@ -2,7 +2,7 @@ import Hero from '../components/Hero';
 import Seccion from '../components/Seccion';
 import GaleriaProductos from '../components/GaleriaProductos';
 
-import productos from '../data/productos';
+import {productos} from '../data/productos';
 import banner from '../assets/img/maquillajeskincare.jpg';
 
 function Productos() {
