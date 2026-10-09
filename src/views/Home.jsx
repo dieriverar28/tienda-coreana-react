@@ -4,10 +4,10 @@ import Hero from '../components/Hero';
 import Seccion from '../components/Seccion';
 import GaleriaProductos from '../components/GaleriaProductos';
 
-import productos from '../data/productos';
+import {productos} from '../data/productos';
 import logo from '../assets/img/logoskininternational.png';
 import coreana from '../assets/img/coreana.jpg';
-
+import { itemsMenu } from '../data/itemsMenu';
 function Home() {
 
   // slice(0, 3) = solo los 3 primeros del catálogo, como destacados.
@@ -20,6 +20,7 @@ function Home() {
         subtitulo="Lo mejor de la estética coreana en tu piel"
         imagen={logo}
         alt="Logo K-Skin"
+        itemsMenu={itemsMenu}
       />
 
       <main id="contenido">

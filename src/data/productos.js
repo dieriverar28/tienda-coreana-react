@@ -10,7 +10,8 @@ import base2an from '../assets/img/2aN_BASE.jpg';
 import protector from '../assets/img/protectorSolas.jpeg';
 import lipTatto from '../assets/img/liptatto.jpg';
 
-const productos = [
+
+ export const productos = [
   {
     id: 'tocobo-skin',
     imagen: tocobo,
