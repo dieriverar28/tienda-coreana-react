@@ -20,7 +20,7 @@ function TarjetaProducto({ id, imagen, nombre, descripcion, precio }) {
       </h3>
 
       {/* toLocaleString('es-CL') pone el punto de miles: 15990 → 15.990 */}
-      <p className="precio">${precio.toLocaleString('es-CL')}</p>
+      <p className="precio">${precio}</p>
 
       <p className="descripcion">{descripcion}</p>
 
