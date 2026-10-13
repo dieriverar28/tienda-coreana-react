@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom'; //agregar propiedad default pagina error 404
 
 import Topbar from './components/Topbar';
 import Header from './components/Header';
